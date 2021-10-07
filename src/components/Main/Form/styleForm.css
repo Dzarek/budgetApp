@@ -1,0 +1,39 @@
+.formAll,
+.formSelect,
+.formSelect2,
+.formSelect3 {
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    font-size: 1rem;
+    padding: 5px 5%;
+    outline: none;
+    border: white 1px solid;
+    box-shadow: 0px 0px 5px 1px white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.formSelect3 {
+    font-size: .9rem;
+}
+
+.formSelect {
+    width: 100%;
+    padding: 0;
+}
+
+.formAll::placeholder,
+.formSelect::placeholder,
+.formSelect2::placeholder,
+.formSelect3::placeholder {
+    color: #fff;
+}
+
+.formSelect2::placeholder {
+    color: #fff;
+
+}
